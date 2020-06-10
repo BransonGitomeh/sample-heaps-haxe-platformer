@@ -1,0 +1,5 @@
+-lib heaps
+-lib hlsdl
+-hl bin/hello.hl
+-main Main
+-D windowSize=1366x768

@@ -1,0 +1,14 @@
+{
+  "name": "tweening",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "haxe --connect 6000 compile.hxml",
+    "start": "hl bin/hello.hl",
+    "dev":"nodemon -e ts  --exec \"npm run build && npm start\""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
